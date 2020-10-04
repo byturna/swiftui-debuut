@@ -9,8 +9,12 @@ I didn't know what to make so I just started making a package manager similar to
 3. Remove the other 'Add-ons' categories.
 4. Add an edit (or settings) button on Categories page.
 5. Make a Search page
-6. 
+6. Make Home page prettier, add some other options maybe?
 7. 
+
+# Preview
+
+![First Version](https://github.com/byturna/swiftui-debuut/blob/main/Image.GIF)
 
 # Contribute
 I appriciate the help, however this project is for me to learn coding and trying to understand it. If you wanna help me out by answering questions I have just add me on discord: Meté#7254
