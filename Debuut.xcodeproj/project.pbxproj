@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		53EAB1332528A82500929C01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EAB1322528A82500929C01 /* Preview Assets.xcassets */; };
 		53EAB13E2528A82500929C01 /* DebuutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB13D2528A82500929C01 /* DebuutTests.swift */; };
 		53EAB1492528A82500929C01 /* DebuutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1482528A82500929C01 /* DebuutUITests.swift */; };
+		53EAB1812528D34B00929C01 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1802528D34B00929C01 /* Home.swift */; };
+		53EAB1862528D46E00929C01 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1852528D46E00929C01 /* Search.swift */; };
+		53EAB18B2528D57F00929C01 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB18A2528D57F00929C01 /* Categories.swift */; };
+		53EAB1A52528DC1B00929C01 /* Changelog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1A42528DC1B00929C01 /* Changelog.swift */; };
+		53EAB1AA2528DC7000929C01 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1A92528DC7000929C01 /* About.swift */; };
+		53EAB1B32528E9F100929C01 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1B22528E9F100929C01 /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		53EAB1442528A82500929C01 /* DebuutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebuutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EAB1482528A82500929C01 /* DebuutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuutUITests.swift; sourceTree = "<group>"; };
 		53EAB14A2528A82500929C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EAB1802528D34B00929C01 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		53EAB1852528D46E00929C01 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		53EAB18A2528D57F00929C01 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		53EAB1A42528DC1B00929C01 /* Changelog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changelog.swift; sourceTree = "<group>"; };
+		53EAB1A92528DC7000929C01 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		53EAB1B22528E9F100929C01 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,11 @@
 				53EAB12B2528A82100929C01 /* DebuutApp.swift */,
 				53EAB12D2528A82100929C01 /* ContentView.swift */,
 				53EAB12F2528A82500929C01 /* Assets.xcassets */,
+				53EAB1802528D34B00929C01 /* Home.swift */,
+				53EAB1B22528E9F100929C01 /* Welcome.swift */,
+				53EAB1AE2528DC8100929C01 /* Home */,
+				53EAB18A2528D57F00929C01 /* Categories.swift */,
+				53EAB1852528D46E00929C01 /* Search.swift */,
 				53EAB1342528A82500929C01 /* Info.plist */,
 				53EAB1312528A82500929C01 /* Preview Content */,
 			);
@@ -128,6 +145,15 @@
 				53EAB14A2528A82500929C01 /* Info.plist */,
 			);
 			path = DebuutUITests;
+			sourceTree = "<group>";
+		};
+		53EAB1AE2528DC8100929C01 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				53EAB1A42528DC1B00929C01 /* Changelog.swift */,
+				53EAB1A92528DC7000929C01 /* About.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +235,7 @@
 				};
 			};
 			buildConfigurationList = 53EAB1232528A82100929C01 /* Build configuration list for PBXProject "Debuut" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -260,7 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				53EAB12E2528A82100929C01 /* ContentView.swift in Sources */,
+				53EAB1862528D46E00929C01 /* Search.swift in Sources */,
+				53EAB1AA2528DC7000929C01 /* About.swift in Sources */,
+				53EAB1A52528DC1B00929C01 /* Changelog.swift in Sources */,
+				53EAB1B32528E9F100929C01 /* Welcome.swift in Sources */,
+				53EAB18B2528D57F00929C01 /* Categories.swift in Sources */,
 				53EAB12C2528A82100929C01 /* DebuutApp.swift in Sources */,
+				53EAB1812528D34B00929C01 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -419,6 +452,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Debuut/Preview Content\"";
+				DEVELOPMENT_TEAM = G4KB77RXF8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Debuut/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Debuut/Preview Content\"";
+				DEVELOPMENT_TEAM = G4KB77RXF8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Debuut/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -507,6 +542,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.turna.DebuutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -526,6 +562,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.turna.DebuutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
