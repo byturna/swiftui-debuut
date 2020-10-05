@@ -12,15 +12,10 @@ struct Home: View {
         NavigationView {
                 List {
                     Section {
-                        NavigationLink(destination: Changelog()) {
-                            HStack {
-                                ZStack {
-                                    Image(systemName: "sparkles").font(.callout)
-                                        .foregroundColor(.white)
-                                }.frame(width: 28, height: 28).background(Color.yellow).cornerRadius(6)
-                                Text("Changelog")
-                            }
-                        }
+                        VStack {
+                            Text("This is a modern package manager Apple devices written in Swift.")
+                        }.padding()
+                        .multilineTextAlignment(.center)
                         NavigationLink(destination: Changelog()) {
                             HStack {
                                 ZStack {
@@ -44,8 +39,7 @@ struct Home: View {
                         }
                         
                     }
-                }
-                .navigationBarTitle("Welcome")
+                }.navigationBarTitle("✨Welcome")
                 .listStyle(InsetGroupedListStyle())
         }
         .navigationViewStyle(StackNavigationViewStyle())

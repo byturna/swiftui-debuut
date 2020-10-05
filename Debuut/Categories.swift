@@ -13,7 +13,16 @@ struct Categories: View {
                 List {
                     Section {
                         NavigationLink(destination: About()) {
-                            Text("All Packages")
+                            Text("All packages")
+                        }
+                        NavigationLink(destination: Changelog()) {
+                            HStack {
+                                ZStack {
+                                    Image(systemName: "sparkles").font(.callout)
+                                        .foregroundColor(.white)
+                                }.frame(width: 28, height: 28).background(Color.yellow).cornerRadius(6)
+                                Text("New & noteworthy")
+                            }
                         }
                         
                     }
@@ -81,9 +90,21 @@ struct Categories: View {
                     }
                 }
                 .navigationBarTitle("Categories")
+                .toolbar {
+                                ToolbarItem(placement: .primaryAction) {
+                                    Menu("Edit") {
+                                        Button(action: {}) {
+                                            Label("Preferences", systemImage: "folder.fill.badge.gear")
+                                        }
+
+                                        Button(action: {}) {
+                                            Label("Repositories", systemImage: "paperclip.badge.ellipsis")
+                                        }
+                                    }
+                                }
+                            }
                 .listStyle(InsetGroupedListStyle())
         }
-        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
