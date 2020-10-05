@@ -49,7 +49,7 @@ struct Search: View {
                     }
                 }
                 .padding(.horizontal)
-                .navigationBarHidden(showCancelButton) // .animation(.default) // animation does not work properly
+                .navigationBarHidden(showCancelButton)
 
                 List {
                 }

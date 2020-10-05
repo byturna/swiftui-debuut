@@ -18,7 +18,6 @@
 		53EAB18B2528D57F00929C01 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB18A2528D57F00929C01 /* Categories.swift */; };
 		53EAB1A52528DC1B00929C01 /* Changelog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1A42528DC1B00929C01 /* Changelog.swift */; };
 		53EAB1AA2528DC7000929C01 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1A92528DC7000929C01 /* About.swift */; };
-		53EAB1B32528E9F100929C01 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EAB1B22528E9F100929C01 /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		53EAB18A2528D57F00929C01 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		53EAB1A42528DC1B00929C01 /* Changelog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changelog.swift; sourceTree = "<group>"; };
 		53EAB1A92528DC7000929C01 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
-		53EAB1B22528E9F100929C01 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 				53EAB12B2528A82100929C01 /* DebuutApp.swift */,
 				53EAB12D2528A82100929C01 /* ContentView.swift */,
 				53EAB12F2528A82500929C01 /* Assets.xcassets */,
-				53EAB1B22528E9F100929C01 /* Welcome.swift */,
 				53EAB1802528D34B00929C01 /* Home.swift */,
 				53EAB1AE2528DC8100929C01 /* Home */,
 				53EAB18A2528D57F00929C01 /* Categories.swift */,
@@ -289,7 +286,6 @@
 				53EAB1862528D46E00929C01 /* Search.swift in Sources */,
 				53EAB1AA2528DC7000929C01 /* About.swift in Sources */,
 				53EAB1A52528DC1B00929C01 /* Changelog.swift in Sources */,
-				53EAB1B32528E9F100929C01 /* Welcome.swift in Sources */,
 				53EAB18B2528D57F00929C01 /* Categories.swift in Sources */,
 				53EAB12C2528A82100929C01 /* DebuutApp.swift in Sources */,
 				53EAB1812528D34B00929C01 /* Home.swift in Sources */,
@@ -460,7 +456,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.turna.Debuut;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turna.spark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +478,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.turna.Debuut;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turna.spark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
